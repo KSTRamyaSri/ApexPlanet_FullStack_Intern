@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <script src="script.js"></script>
 </head>
 <body>
 
@@ -130,18 +131,7 @@
 
 <script>
     // 1. Smooth Scroll
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
-        });
-    });
-
-    // 2. Simple Form Validation/Alert
-    const form = document.getElementById('mainContactForm');
-    form.onsubmit = () => {
-        console.log("Form submitted locally before PHP takes over.");
-    };
+    
 </script>
 
 </body>
