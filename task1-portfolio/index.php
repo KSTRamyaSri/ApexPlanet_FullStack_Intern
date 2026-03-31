@@ -129,10 +129,7 @@
 
 <footer>&copy; 2026 K.S.T. Ramya Sri.</footer>
 
-<script>
-    // 1. Smooth Scroll
-    
-</script>
+
 
 </body>
 </html>
