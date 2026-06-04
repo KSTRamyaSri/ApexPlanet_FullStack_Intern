@@ -32,14 +32,44 @@ https://yourusername.github.io/AuthPortal/
 
 ## 📝 Registration Page
 
-![Register](assets/screenshots/register.png)
-![Register](assets/screenshots/footer.png)
+<div align="center">
+
+<img 
+src="assets/screenshots/register.png"
+width="48%"
+style="border:2px solid #d0d7de; border-radius:12px; margin-right:10px; box-shadow:0 8px 20px rgba(0,0,0,.08);" />
+
+<img 
+src="assets/screenshots/footer.png"
+width="48%"
+style="border:2px solid #d0d7de; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,.08);" />
+
+</div>
+
+<br>
+
 ---
 
 ## 🌙 Dark Mode
 
-![Dark Mode](assets/screenshots/dark.png)
-![Dark Mode](assets/screenshots/dark2.png)
+<div align="center">
+
+<img 
+src="assets/screenshots/dark.png"
+width="48%"
+style="border:2px solid #d0d7de; border-radius:12px; margin-right:10px; box-shadow:0 8px 20px rgba(0,0,0,.08);" />
+
+<img 
+src="assets/screenshots/dark2.png"
+width="48%"
+style="border:2px solid #d0d7de; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,.08);" />
+
+</div>
+
+<br>
+
+---
+
 ---
 
 ## 📱 Mobile Responsive UI
