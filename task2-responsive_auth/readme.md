@@ -1,119 +1,178 @@
-# 🔐 AuthPortal – Responsive Authentication UI
+# AuthPortal
 
-A modern and responsive authentication interface built using **HTML, CSS, Bootstrap 5, JavaScript, AJAX, and PHP (dummy backend)**.
+### Responsive Authentication UI
 
-Designed with a clean UI, dark/light mode, responsive layouts, and client-side validation.
+A modern and responsive authentication interface developed using **HTML, CSS, Bootstrap 5, JavaScript, AJAX, and PHP (dummy backend)**.
 
----
-
-# 🌐 Live Preview
-
-Add your GitHub Pages link here:
-
-```bash
-https://yourusername.github.io/AuthPortal/
-```
+This project focuses on clean UI design, responsive layouts, reusable components, form validation, and frontend authentication flow.
 
 ---
 
-# 📸 Screenshots
 
-## 🏠 Home Page
 
-![Home](assets/screenshots/home.png)
+# Project Screenshots
 
----
+## Home Page
 
-## 🔑 Login Page
-
-![Login](assets/screenshots/login.png)
+<img src="assets/screenshots/home.png" width="100%">
 
 ---
 
-## 📝 Registration Page
+## Login Page
 
-<div align="center">
-
-<img 
-src="assets/screenshots/register.png"
-width="48%"
-style="border:2px solid #d0d7de; border-radius:12px; margin-right:10px; box-shadow:0 8px 20px rgba(0,0,0,.08);" />
-
-<img 
-src="assets/screenshots/footer.png"
-width="48%"
-style="border:2px solid #d0d7de; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,.08);" />
-
-</div>
-
-<br>
+<img src="assets/screenshots/login.png" width="100%">
 
 ---
 
-## 🌙 Dark Mode
+## Registration Interface
 
-<div align="center">
+<table>
+<tr>
 
-<img 
-src="assets/screenshots/dark.png"
-width="48%"
-style="border:2px solid #d0d7de; border-radius:12px; margin-right:10px; box-shadow:0 8px 20px rgba(0,0,0,.08);" />
+<td width="50%" align="center">
 
-<img 
-src="assets/screenshots/dark2.png"
-width="48%"
-style="border:2px solid #d0d7de; border-radius:12px; box-shadow:0 8px 20px rgba(0,0,0,.08);" />
+<img src="assets/screenshots/register.png" width="100%">
 
-</div>
+<br><br>
 
-<br>
+Registration Screen
 
----
+</td>
 
----
+<td width="50%" align="center">
 
-## 📱 Mobile Responsive UI
+<img src="assets/screenshots/footer.png" width="100%">
 
-![Mobile](assets/screenshots/mobile.png)
+<br><br>
 
----
+Footer Component
 
-## 🎉 Welcome Dashboard
+</td>
 
-![Welcome](assets/screenshots/welcome.png)
+</tr>
+</table>
 
 ---
 
-# ✨ Features
+## Dark Theme
 
-✅ Responsive Mobile-First UI
-✅ Bootstrap 5 Grid System
-✅ Reusable Navbar & Footer
-✅ Login & Registration Forms
-✅ Form Validation using JavaScript
-✅ Password Show / Hide
-✅ Dark / Light Mode Toggle
-✅ AJAX Username Availability Check
-✅ LocalStorage Authentication
-✅ Welcome Page after Login
-✅ Clean Animations & Hover Effects
+<table>
+<tr>
+
+<td width="50%" align="center">
+
+<img src="assets/screenshots/dark.png" width="100%">
+
+<br><br>
+
+Login Theme
+
+</td>
+
+<td width="50%" align="center">
+
+<img src="assets/screenshots/dark2.png" width="100%">
+
+<br><br>
+
+Registration Theme
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-# 🛠 Tech Stack
+## Mobile Responsive View
 
-| Technology  | Usage             |
-| ----------- | ----------------- |
-| HTML5       | Structure         |
-| CSS3        | Styling           |
-| Bootstrap 5 | Responsive Design |
-| JavaScript  | Validation & UI   |
-| AJAX        | Async Requests    |
-| PHP         | Dummy Backend     |
+<img src="assets/screenshots/mobile.png" width="100%">
 
 ---
 
-# 📂 Project Structure
+## Welcome Dashboard
+
+<img src="assets/screenshots/welcome.png" width="100%">
+
+---
+
+# Features
+
+<table>
+
+<tr>
+<td>•</td>
+<td>Responsive Mobile-First Interface</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>Bootstrap 5 Grid System</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>Reusable Navbar and Footer</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>Login and Registration Forms</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>JavaScript Validation</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>Password Visibility Toggle</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>Dark / Light Theme Switching</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>AJAX Username Availability Check</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>LocalStorage Authentication</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>Welcome Dashboard</td>
+</tr>
+
+<tr>
+<td>•</td>
+<td>Responsive Components</td>
+</tr>
+
+</table>
+
+---
+
+# Technology Stack
+
+| Technology  | Purpose                  |
+| ----------- | ------------------------ |
+| HTML5       | Page Structure           |
+| CSS3        | Styling                  |
+| Bootstrap 5 | Responsive Layout        |
+| JavaScript  | Validation & Interaction |
+| AJAX        | Asynchronous Requests    |
+| PHP         | Backend Simulation       |
+
+---
+
+# Project Structure
 
 ```plaintext
 AuthPortal/
@@ -149,21 +208,22 @@ AuthPortal/
 
 
 
----
-
-# 🚀 Usage Flow
+# Application Flow
 
 ```plaintext
-Register
+User Registration
 ↓
 
-Validate Inputs
+Validation
 ↓
 
-Login
+Availability Check
 ↓
 
-Welcome Dashboard
+Login Authentication
+↓
+
+Dashboard Access
 ↓
 
 Logout
@@ -171,22 +231,42 @@ Logout
 
 ---
 
+# Authentication Workflow
 
-
-
-# 👩‍💻 Author
-
-**Swarupa**
-
-Frontend • Bootstrap • JavaScript • Responsive UI
+1. Create account
+2. Store user information
+3. Authenticate login
+4. Redirect to dashboard
+5. Logout session
 
 ---
 
-# ⭐ Future Improvements
+# Learning Outcomes
 
-* Email OTP Verification
+* Responsive Design
+* Component Architecture
+* Frontend Authentication
+* AJAX Integration
+* Bootstrap Components
+* Theme Management
+* Form Validation
+
+---
+
+# Author
+
+### Swarupa
+
+Frontend Development • Responsive UI • JavaScript
+
+---
+
+# Future Enhancements
+
+* Email Verification
 * Backend Authentication
 * Database Integration
-* Forgot Password
-* User Dashboard
-* Profile Settings
+* Password Recovery
+* User Profiles
+* Analytics Dashboard
+* API Integration
