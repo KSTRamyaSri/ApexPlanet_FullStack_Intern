@@ -33,13 +33,13 @@ https://yourusername.github.io/AuthPortal/
 ## 📝 Registration Page
 
 ![Register](assets/screenshots/register.png)
-
+![Register](assets/screenshots/footer.png)
 ---
 
 ## 🌙 Dark Mode
 
-![Dark Mode](assets/screenshots/darkmode.png)
-
+![Dark Mode](assets/screenshots/dark.png)
+![Dark Mode](assets/screenshots/dark2.png)
 ---
 
 ## 📱 Mobile Responsive UI
@@ -117,19 +117,7 @@ AuthPortal/
 
 ---
 
-# ⚙️ Installation
 
-Clone repository:
-
-```bash
-git clone https://github.com/yourusername/AuthPortal.git
-```
-
-Open:
-
-```bash
-index.html
-```
 
 ---
 
@@ -153,17 +141,8 @@ Logout
 
 ---
 
-# 🎥 Demo Video
 
-Add your demo video link here.
 
-Example:
-
-```bash
-https://youtu.be/demo-link
-```
-
----
 
 # 👩‍💻 Author
 
